@@ -14,7 +14,7 @@ class Register extends UseCaseWithParams<void, RegisterParams> {
     name: params.name,
     password: params.password,
     email: params.email,
-    phone: params.phone,
+    phone: params.phone
   );
 }
 
