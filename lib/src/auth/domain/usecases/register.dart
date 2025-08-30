@@ -2,7 +2,7 @@ import 'package:equatable/equatable.dart';
 import 'package:prakhya_ecomly/core/utils/typedefs.dart';
 import 'package:prakhya_ecomly/src/auth/domain/repositories/auth_repository.dart';
 
-import '../../../../core/usecase/usecase.dart'
+import '../../../../core/usecase/usecase.dart';
 
 class Register extends UseCaseWithParams<void, RegisterParams> {
   final AuthRepository _repo;
