@@ -1,5 +1,6 @@
 import 'package:equatable/equatable.dart';
 import 'package:prakhya_ecomly/core/common/entities/address.dart';
+import 'package:prakhya_ecomly/src/wishlist/domain/entities/wishlist_product.dart';
 
 class User extends Equatable {
   const User({
@@ -29,9 +30,10 @@ class User extends Equatable {
   final Address? address;
   final String? phone;
 
+
   @override
   List<Object?> get props => [id];
 }
 
-class WishListProduct {}
+
 
